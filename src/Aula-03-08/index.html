@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <script>
+    function bigImg(x) {
+      x.style.height = "30rem";
+      x.style.width = "30rem";
+    }
+
+    function normalImg(x) {
+      x.style.height = "20rem";
+      x.style.width = "20rem";
+    }
+  </script>
+  <body style="margin: 0px">
+    <div
+      style="
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+      "
+    >
+      <h1 style="margin-bottom: 1rem">Igreja Matriz Pau dos Ferros (RN)</h1>
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Igreja_Matriz_-_Pau_dos_Ferros_%28RN%29.jpg/600px-Igreja_Matriz_-_Pau_dos_Ferros_%28RN%29.jpg?20190520025137"
+        alt="File:Igreja Matriz - Pau dos Ferros (RN).jpg"
+        onmouseover="bigImg(this)"
+        onmouseout="normalImg(this)"
+        style="transition: all 0.5s ease-in-out"
+      />
+    </div>
+  </body>
+</html>
