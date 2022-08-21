@@ -1,0 +1,38 @@
+* {
+  font-family: "Linux Libertine", "Georgia", "Times", serif;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.container-title {
+  border-bottom: 1px solid #a2a9b1;
+}
+h1,
+h2 {
+  font-weight: normal;
+}
+
+#container {
+  display: flex;
+}
+
+#sidebar {
+  padding: 20px;
+  width: 50%;
+}
+
+#remove-style-list {
+  list-style: none;
+  padding: 0;
+}
+
+li + li {
+  margin-top: 15px;
+}
+
+span {
+  font-size: 12px;
+}
