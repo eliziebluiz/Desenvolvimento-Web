@@ -1,0 +1,34 @@
+1.
+a - https://www.youtube.com/
+b - <title>(264) MARCOLA TENTA FUGIR - YouTube</title>
+c - <a class="yt-simple-endpoint style-scope ytd-button-renderer" tabindex="-1"><yt-icon-button id="button" class="style-scope ytd-button-renderer style-default size-default"><!--css-build:shady--><button id="button" class="style-scope yt-icon-button" aria-label="Download"><yt-icon class="style-scope ytd-button-renderer"><svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;"><g class="style-scope yt-icon"><path d="M17 18V19H6V18H17ZM16.5 11.4L15.8 10.7L12 14.4V4H11V14.4L7.2 10.6L6.5 11.3L11.5 16.3L16.5 11.4Z" class="style-scope yt-icon"></path></g></svg><!--css-build:shady--></yt-icon></button><yt-interaction id="interaction" class="circular style-scope yt-icon-button"><!--css-build:shady--><div class="stroke style-scope yt-interaction"></div><div class="fill style-scope yt-interaction"></div></yt-interaction></yt-icon-button><yt-formatted-string id="text" class="style-scope ytd-button-renderer style-default size-default">Download</yt-formatted-string><tp-yt-paper-tooltip class="style-scope ytd-button-renderer" role="tooltip" tabindex="-1" style="inset: 43.9961px auto auto 375.625px;"><!--css-build:shady--><div id="tooltip" class="style-scope tp-yt-paper-tooltip hidden" style-target="tooltip"> Download</div></tp-yt-paper-tooltip></a>
+d - <h1 class="title style-scope ytd-video-primary-info-renderer"><yt-formatted-string force-default-style="" class="style-scope ytd-video-primary-info-renderer">MARCOLA TENTA FUGIR</yt-formatted-string></h1>
+e - <!-- <script src="https://www.youtube.com/s/desktop/1b881720/jsbin/intersection-observer.min.vflset/intersection-observer.min.js" nonce="G_1sh1i14IxlpQYGzW_b3A" class="js-httpswwwyoutubecomsdesktop1b881720jsbinintersectionobserverminvflsetintersectionobserverminjs"></script> -->
+
+2.
+a - https://ufersa.edu.br/
+b - <title>Portal UFERSA | Universidade Federal Rural do Semi-Árido</title>
+c - <a href="https://englishversion.ufersa.edu.br" title="English Version"><img src="https://englishversion.ufersa.edu.br/wp-content/themes/temaufersa/img/english_flag.png" class="img-responsive"></a>
+d - <h2 class="page-header">About UFERSA</h2>
+e - <!-- Fim da Página -->
+
+3.
+a - https://sigaa.ufersa.edu.br/
+b - <title>SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas</title>
+c - <a href="https://sigadmin.ufersa.edu.br/admin/auto_cadastro/form.jsf?origem=2"></a>
+d - <h3> Entrar no Sistema </h3>
+e - <!-- Fim dos imports para abrir chamado -->
+
+4.
+a - https://ls.lifesprint.com.br/
+b - <title>LifeSprint</title>
+c - <a href="https://www.facebook.com/programalifesprint/" class="jss103"></a>
+d - <h3 class="MuiTypography-root MuiTypography-h3 css-oj1hu7-MuiTypography-root" id="titleForm">Entre com seu e-mail</h3>
+e - <!-- <grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration> -->
+
+5.
+a - https://quevende.com.br/
+b - <title>Qvende</title>
+c - <a href="https://empresa.quevende.com.br/" target="_blank"></a>
+d - <h3 class="MuiTypography-root MuiTypography-h3 css-17zsq5h-MuiTypography-root">Saiba porquê a QVende é diferente</h3>
+e - <!-- <div tabindex="0" data-test="sentinelEnd"></div> -->
