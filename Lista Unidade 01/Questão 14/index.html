@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Escola Virtual</title>
+  </head>
+  <body>
+    <div
+      style="
+        width: 100%;
+        border-style: double;
+        max-width: 500px;
+        margin: 0 auto;
+      "
+    >
+      <header style="width: 100%; text-align: center">
+        <h1>Escola Virtual</h1>
+        <h2>Formulário de Pré-Matricula</h2>
+        <div
+          style="
+            background: #929292;
+            height: 1px;
+            width: 95%;
+            margin: 10px auto;
+          "
+        />
+      </header>
+      <form>
+        <section style="margin: 10px; padding: 10px; border-style: double">
+          <strong>Dados Pessoais:</strong>
+          <div style="text-align: center">
+            <p>Nome do Aluno: <input type="text" /></p>
+            <p>
+              Nascimento(dd/mm/aaaa):
+              <input style="max-width: 50px" type="number" />/<input
+                style="max-width: 50px"
+                type="number"
+              />/<input style="max-width: 80px" type="number" />
+            </p>
+            <p>Nome da Mãe: <input type="text" /></p>
+            <p>Nome do Pai: <input type="text" /></p>
+            <p>
+              Telefone: DDD(<input style="max-width: 50px" type="number" />)
+              Tel:<input style="max-width: 80px" type="number" /> Ramal:<input
+                style="max-width: 50px"
+                type="number"
+              />
+            </p>
+            <p>E-Mail: <input type="text" /></p>
+          </div>
+        </section>
+        <section style="margin: 10px; padding: 10px; border-style: double">
+          <strong>Informações de Matricula:</strong>
+          <div style="display: flex">
+            <div>
+              <p>Série:</p>
+              <select>
+                <option value="Pré Escolar">Pré-Escolar</option>
+                <option value="Pré Escolar">Fundamental</option>
+                <option value="Pré Escolar">Ensino médio</option>
+              </select>
+            </div>
+            <div style="margin-left: 20px">
+              <p>Turno:</p>
+              <div>
+                <input name="turno" id="manha" type="radio" value="manha" />
+                <label>Manhã</label>
+              </div>
+              <div>
+                <input name="turno" id="tarde" type="radio" value="tarde" />
+                <label>Tarde</label>
+              </div>
+            </div>
+            <div style="margin-left: 20px">
+              <p>Atividade Extracurricular:</p>
+              <div>
+                <input type="checkbox" value="info" />
+                <label>Informática</label>
+              </div>
+              <div>
+                <input type="checkbox" value="music" />
+                <label>Música</label>
+              </div>
+              <div>
+                <input type="checkbox" value="balet" />
+                <label>Balet</label>
+              </div>
+              <div>
+                <input type="checkbox" value="pintura" />
+                <label>Pintura</label>
+              </div>
+              <div>
+                <input type="checkbox" value="judo" />
+                <label>Judô</label>
+              </div>
+              <div>
+                <input type="checkbox" value="futebol" />
+                <label>Futebol</label>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div style="margin: 10px 0px; width: 100%; text-align: center">
+          <button type="submit">Enviar Formulário</button>
+          <button type="reset">Limpar Campos</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
