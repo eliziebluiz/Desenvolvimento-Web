@@ -1,0 +1,19 @@
+menu {
+  float: left;
+  padding: 0px;
+  background-color: #444343;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+a {
+  padding: 16px;
+  color: white;
+}
+
+a:nth-child(2) {
+  background-color: #f6f6f6;
+  color: #444343;
+}
