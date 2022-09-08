@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tratamento de eventos</title>
+  </head>
+  <script>
+    let over = 0;
+    let out = 0;
+    function contOver() {
+      over++;
+      document.getElementById("exemplo1").src =
+        "https://p.kindpng.com/picc/s/25-258844_clip-art-ojos-de-unicornio-png-cilios-molde.png";
+    }
+    function contOut() {
+      out++;
+      document.getElementById("exemplo1").src =
+        "https://p.kindpng.com/picc/s/455-4557923_eyes-coloring-page-olho-em-desenho-para-colorir.png";
+    }
+    function imprimeAlerta() {
+      alert("Entradas:" + over + " Saidas:" + out);
+    }
+  </script>
+  <body onClick="imprimeAlerta()">
+    <img
+      id="exemplo1"
+      src="https://p.kindpng.com/picc/s/455-4557923_eyes-coloring-page-olho-em-desenho-para-colorir.png"
+      onMouseOver="contOver()"
+      onMouseOut="contOut()"
+    />
+  </body>
+</html>
