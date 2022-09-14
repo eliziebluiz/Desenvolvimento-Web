@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script>
+      let contador = 0;
+      function getValue() {
+        const cabecalho1 = document.getElementById("header1");
+        const cabecalho2 = document.getElementById("header2");
+        alert(cabecalho1.innerHTML);
+        contador++;
+        cabecalho2.innerHTML = "Cliques: " + contador;
+      }
+    </script>
+  </head>
+  <body>
+    <h1 id="header1" onclick="getValue()">Clique Aqui!</h1>
+    <h2 id="header2"></h2>
+  </body>
+</html>

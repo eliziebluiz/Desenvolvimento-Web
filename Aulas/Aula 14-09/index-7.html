@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function calcularHora() {
+        let hoje = new Date();
+        let hora = hoje.getHours();
+        let minuto = hoje.getMinutes();
+        let segundo = hoje.getSeconds();
+        minuto = formata(minuto);
+        segundo = formata(segundo);
+
+        let horario = hora + ":" + minuto + ":" + segundo;
+        let relogio = document.getElementById("relogio");
+        relogio.innerHTML = horario;
+
+        setTimeout("calcularHora()", 500);
+      }
+      function formata(i) {
+        if (i < 10) {
+          i = "0" + i;
+        }
+        return i;
+      }
+    </script>
+  </head>
+  <body onload="calcularHora()">
+    <div id="relogio"></div>
+  </body>
+</html>

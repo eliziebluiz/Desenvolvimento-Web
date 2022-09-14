@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function aumentar(posicao) {
+        document.images[posicao].width = 300;
+        document.images[posicao].height = 300;
+      }
+      function diminuir(posicao) {
+        document.images[posicao].width = 150;
+        document.images[posicao].height = 150;
+      }
+    </script>
+  </head>
+  <style>
+    img {
+      transition: all 1s;
+    }
+  </style>
+  <body>
+    <img
+      id="imagem1"
+      alt="imagem1"
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkheRmlvA3SzfLi3QtCi70PsKc_UUwW4JCBbCH_v7O2g&s"
+      width="150"
+      height="150"
+      onmouseover="aumentar(0)"
+      onmouseout="diminuir(0)"
+    />
+    <img
+      id="imagem2"
+      alt="imagem2"
+      src="https://www.fotografemelhor.com.br/site/wp-content/uploads/2021/11/er070271-32-37-2.jpg"
+      width="150"
+      height="150"
+      onmouseover="aumentar(1)"
+      onmouseout="diminuir(1)"
+    />
+  </body>
+</html>

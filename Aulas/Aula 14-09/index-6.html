@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function adicionarItem() {
+        let campoTexto = document.getElementById("item");
+        let campoItens = document.getElementById("itens");
+        let opcaoNova = document.createElement("option");
+        opcaoNova.text = campoTexto.value;
+        campoItens.add(opcaoNova);
+      }
+      function adicionarTexto() {
+        let campoAreaTexto = document.getElementById("areaTexto");
+        let campoItens = document.getElementById("itens");
+        let posicaoSelecionada = campoItens.selectedIndex;
+        let novoTexto = campoItens[posicaoSelecionada].text;
+        campoAreaTexto.value = campoAreaTexto.value + "\n" + novoTexto;
+      }
+    </script>
+  </head>
+  <body>
+    <form>
+      <input id="item" type="text" value="Digite algo!" />
+      <input type="button" value="Adicionar Item" onClick="adicionarItem()" />
+      <br />
+      <select id="itens" onchange="adicionarTexto()">
+        <option>Item Inicial</option>
+      </select>
+      <br />
+      <textarea id="areaTexto" rows="20" cols="30"></textarea>
+    </form>
+  </body>
+</html>
