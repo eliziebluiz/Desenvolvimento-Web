@@ -1,0 +1,41 @@
+* {
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+}
+
+table {
+  border: 0px;
+  width: 600px;
+
+  margin: 0 auto;
+}
+caption {
+  color: #ffff;
+}
+p {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#title-column {
+  background-color: #66c5e3;
+  font-weight: bold;
+}
+
+#column-grey {
+  background-color: #cacbd1;
+  text-align: center;
+}
+
+.item-center {
+  text-align: center;
+}
+.name-cities {
+  color: #0d5188;
+  font-weight: bold;
+}
