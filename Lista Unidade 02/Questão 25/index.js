@@ -25,8 +25,6 @@ function main() {
 
   let livro = new Livro(name, gender, autor, ano);
 
-  console.log(livro);
-
   if (!!livro.ano && !!livro.name && !!livro.gender && !!livro.nameAuthor) {
     let autordois = prompt("Digite o nome do segundo autor:");
     let igualsAutor = temMesmoAutor(autordois, livro.nameAuthor);
